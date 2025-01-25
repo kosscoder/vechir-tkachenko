@@ -1,0 +1,137 @@
+.hero {
+	background-color: #24250d;
+	width: 100vw;
+	height: 100vh;
+}
+
+.hero__wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 100vh;
+}
+
+.hero__top-content {
+	padding-top: 80px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.top-content__sponsors {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	column-gap: 30px;
+}
+
+.sponsors__reborn-link-img {
+	height: 110px;
+}
+
+.sponsors__nova-link-img {
+	height: 70px;
+}
+
+.top-content__info-link {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.top-content__info-link-location-name {
+	font-size: 30px;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin-bottom: 8px;
+}
+
+.top-content__info-link-location-address {
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.top-content__info-date-text {
+	font-size: 28px;
+	font-weight: 600;
+	margin-top: 16px;
+	color: var(--col-yellow);
+}
+
+.hero__main-content {
+	padding-top: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.main-content__info {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	max-width: 565px;
+	justify-content: space-between;
+	align-items: start;
+}
+
+.info__desc-notice {
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 300;
+	text-transform: uppercase;
+	margin-top: 10px;
+}
+
+.info__desc-notice > p:first-child {
+	font-weight: 600;	
+}
+
+.info__desc {
+	margin-top: 120px;
+}
+
+.info__desc-about {
+	font-size: 18px;
+	line-height: 26px;
+	font-weight: 400;
+	text-transform: uppercase;
+	font-family: "Golos Text", sans-serif;
+}
+
+.info__desc-title {
+	font-size: 74px;
+	font-weight: 700;
+	line-height: 1;
+	color: var(--col-yellow);
+	margin: 10px 0;
+}
+
+.info__desc-subtitle {
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+.info__link {
+	text-decoration: none;
+	background-color: var(--col-yellow);
+	border-radius: 25px;
+	/* border: 3px solid #ffffff; */
+	padding: 17px 27px;
+	display: inline-block;
+	color: #24250d;
+	font-weight: 600;
+	transition: all 0.3s;
+	
+}
+
+.info__link:hover {
+	padding: 17px 32px;
+}
+
+.info__money {
+	line-height: 26px;
+	font-weight: 100;
+	text-transform: uppercase;
+	padding-bottom: 50px;
+}

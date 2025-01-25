@@ -1,0 +1,15 @@
+body {
+	font-family: "Roboto", sans-serif;
+	/* font-family: "Golos Text", sans-serif; */
+	color: #ffffff;
+}
+
+.container {
+	max-width: 1230px;
+	margin: 0 auto;
+	padding: 0 30px;
+}
+
+:root {
+	--col-yellow: #e9ad2d;
+}
