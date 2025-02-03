@@ -135,3 +135,7 @@
 	text-transform: uppercase;
 	padding-bottom: 50px;
 }
+
+.mobile {
+	display: none;
+}
